@@ -1,0 +1,14 @@
+* text=auto
+*.c    text eol=lf
+*.h    text eol=lf
+*.s    text eol=lf
+*.uvprojx  text eol=crlf
+*.uvoptx   text eol=crlf
+*.sct      text eol=crlf
+*.ioc      text eol=crlf
+*.bin   binary
+*.hex   binary
+*.elf   binary
+*.axf   binary
+Library/** linguist-vendored=true
+Start/**   linguist-vendored=true

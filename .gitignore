@@ -1,0 +1,62 @@
+# ===== 编译产物，全部不要 =====
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.bin
+*.hex
+*.s19
+*.map
+*.lst
+*.htm
+*.lnp
+*.dep
+*.iex
+*.build_log.htm
+Objects/
+Listings/
+build/
+Debug/
+Release/
+DebugConfig/
+# 故意不写 *.sct：生成的已在 Objects/ 里；手写的分散加载文件必须入库
+
+# ===== IDE 用户私有设置 =====
+*.uvguix.*
+*.uvgui.*
+*.uvoptx
+*.uvopt
+*.launch
+.settings/
+*.bak
+*.tmp
+
+# ===== 调试器日志 =====
+*.log
+JLinkLog.txt
+JLinkSettings.ini
+*.scvd
+EventRecorderStub.scvd
+RTE/
+
+# ===== 编辑器 / 脚本缓存 =====
+.vscode/
+.idea/
+*.code-workspace
+__pycache__/
+*.py[cod]
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ===== 本机私密 =====
+.env
+.env.*
+*.local
+*.pem
+*.key
